@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="51.813862">
-<testcase classname="Login into Lynk Application" name="Enter Valid Login Credentials" time="51.068686">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="46.193895">
+<testcase classname="Login into Lynk Application" name="Enter Valid Login Credentials" time="45.834229">
 <system-out><![CDATA[Given user lauches the browser and Enter the Lynk Url.......................passed
 Then user enter valid username and password and click on the login button...passed
 Then Site Home should be displayed..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User click on the Site Tile and navigates to Trial Home" name="User enters into WWMG site's Trial Home" time="0.745176">
+<testcase classname="User click on the Site Tile and navigates to Trial Home" name="User enters into WWMG site's Trial Home" time="0.359666">
 <system-out><![CDATA[When Site Name is WWMG......................................................passed
 Then Click the Site Tile of WWMG............................................passed
 And Check the Trial Home of WWMG is Displayed...............................passed
