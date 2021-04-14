@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Enter Valid Login Credentials",
+        "description": "",
+        "id": "login-into-lynk-application;enter-valid-login-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31870656300,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user lauches the browser and Enter the Lynk Url",
+            "match": {
+              "location": "LoginSteps.user_lauches_the_browser_and_Enter_the_Lynk_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 610826300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter valid username and password and click on the login button",
+            "match": {
+              "location": "LoginSteps.user_enter_valid_username_and_password_and_click_on_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18587202900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Site Home should be displayed",
+            "match": {
+              "location": "LoginSteps.site_Home_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login into Lynk Application",
+    "description": "",
+    "id": "login-into-lynk-application",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "User enters into WWMG site\u0027s Trial Home",
+        "description": "",
+        "id": "user-click-on-the-site-tile-and-navigates-to-trial-home;user-enters-into-wwmg-site\u0027s-trial-home",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 293116200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Site Name is WWMG",
+            "match": {
+              "location": "SiteHomeSteps.site_Name_is_WWMG()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452016000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click the Site Tile of WWMG",
+            "match": {
+              "location": "SiteHomeSteps.click_the_Site_Tile_of_WWMG()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Check the Trial Home of WWMG is Displayed",
+            "match": {
+              "location": "SiteHomeSteps.check_the_Trial_Home_of_WWMG_is_Displayed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "User click on the Site Tile and navigates to Trial Home",
+    "description": "",
+    "id": "user-click-on-the-site-tile-and-navigates-to-trial-home",
+    "keyword": "Feature",
+    "uri": "SiteHome.feature"
+  }
+]
